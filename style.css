@@ -158,3 +158,28 @@ nav ul li a:hover::after{
     border-radius: 10px;
     display: block;
 }
+.layer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0), #1e0581);
+    border-radius: 10px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0, 40px;
+    text-align:center;
+    font-size: 14px;
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.layer a{
+    color:rgb(42, 165, 120);
+    font-size:150%;
+}
